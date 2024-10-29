@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: rgb(0, 119, 255);
+}
+img {
+    width: 700px;
+    height: 450px;
+    border-radius: 10%;
+}
+h1 {
+    font-size: 35px;
+}
+h2 {
+    font-size: 30px;
+}
+p {
+    letter-spacing: 3px;
+    font-size: 24px;
+    line-height: 28px;
+}
+.topo {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 3vh;
+    font-size: 60px;
+    color: #ffffff;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 600px;
+    padding: 0 50px;
+}
+.texto {
+    height: 400px;
+}
+.imagem {
+    margin-right: 20px;
+}
+caption {
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+table {
+    background: rgb(0, 0, 0);
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+}
+table th,tr,td, caption {
+    border: solid 1px black;
+}
+td, th{
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.azul {
+    background-color: rgb(0, 47, 255);
+    padding: 5px;
+}
+td img {
+    width: 30px;
+    height: 30px;
+}
+li {
+    width: 150px;
+    font-size: 25px;
+}
+.fogo {
+    background-color: #ff7b00;
+    color: #ffffffff;
+}
+.agua {
+    background-color: #0000ff;
+    color: #ffffffff;
+}
+.grama {
+    background-color: #12a826;
+    color: #ffffffff;
+}
+.eletrico{
+    background-color: rgb(255, 255, 0);
+    color: #ffffffff;
+}
+.terrestre {
+    background-color: rgb(226, 226, 10);
+    color: #ffffffff;
+}
+.pedra {
+    background-color: rgb(179, 182, 4);
+    color: #ffffffff;
+}
+.lista {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 600px;
+    letter-spacing: 5px;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(255, 248, 248);
+    border: 6px solid #000000;
+    flex-wrap: wrap;
+}
+.lista h1,ul,li{
+    background: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+.texto:nth-of-type(2) {
+   margin-left: 90px;
+   width: 800px;
+   height: 600px;
+   font-size: 24px;
+   line-height: 30px;
+   color: #ffffff;
+}
+.container:nth-of-type(2) {
+    width: 100%;
+    height: 100%;
+}
+.evolucoes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    border-bottom: 5px solid black;
+}
+.evolucoes img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.evolucoes-titulo {
+    text-align: center;
+    margin-top: 50px;
+    border-top: 5px solid black;
+    color: #ffffff;
+}
+.evolucoes h1 {
+    text-align: center;
+    color: #ffffff;
+}
+.voltar {
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.voltar a{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px;
+    border: 5px solid black;
+    font-size: 30px;
+    text-decoration: none;
+}
+.voltar a::after {
+    content:"";
+    display: inline-block; /* Necessário para que o pseudo-elemento seja visível */
+    background: url("img/pokeball.png") no-repeat; /* Define a imagem como fundo */
+    width: 50px;
+    height: 50px;
+    background-size: cover; /* Ajusta o tamanho da imagem */
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+    vertical-align: middle;
+}
+a:hover {
+    text-decoration: underline;
+}
+.descricao {
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.evolucoes div:hover {
+    padding: 10px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
